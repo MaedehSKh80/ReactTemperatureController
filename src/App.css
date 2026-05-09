@@ -136,9 +136,9 @@ button:hover {
 }
 
 .too-cold {
-  background-image: url("../public/cold.jpg");
+  background-image: url("/cold.jpg");
 }
 
 .too-warm {
-  background-image: url("../public/warm.jpg");
+  background-image: url("/warm.jpg");
 }
