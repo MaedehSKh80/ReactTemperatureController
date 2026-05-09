@@ -1,0 +1,38 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background-color: #ffffff;
+  border-radius: 8px;
+  border: 1px solid black;
+}
+button {
+  border-radius: 8px;
+  border: 1px solid black;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+  margin: 5px;
+}
+
+#decrease:hover {
+  filter: drop-shadow(2px 2px 1em #00aeff65);
+  border-color: #00d9ff;
+}
+#increase:hover {
+  filter: drop-shadow(2px 2px 1em #ff000089);
+  border-color: #ff0000;
+}
+button:focus,
+button:focus-visible {
+  outline: 0.2px auto -webkit-focus-ring-color;
+}
+#decrease {
+  background-color: #9dfff842;
+}
+#increase {
+  background-color: #ff9d9d42;
+}
