@@ -13,7 +13,7 @@ function App() {
 
   return (
     <>
-      <section id="wrapper" className="too-warm">
+      <section id="wrapper" className={temp > 15 ? "too-warm" : "too-cold"}>
         <header></header>
         <main id="main">
           <p id="temp">{temp}C</p>
